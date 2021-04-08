@@ -1,0 +1,49 @@
+.mainWindow{
+	-fx-background-image : url("bgimage.png");
+	-fx-background-repeat : stretch;
+	-fx-background-position: center center;
+	-fx-background-size : 500 400;
+}
+
+.titleLabelStyle{
+	-fx-background-color : #599191ff;
+	-fx-font-size: 27.0px;
+	-fx-text-fill : #ffffff;
+}
+
+.labelForm{
+	-fx-text-fill : #599191ff;
+	-fx-font-size: 15.0px;
+}
+
+.buttons{
+	-fx-background-color : #599191ff;
+	-fx-border-radius : 5.0, 5.0, 5.0, 5.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill : #ffffff;
+}
+
+.cell{
+	-fx-cell-size : 40px;
+	-fx-font-size : 14px;
+	-fx-border-width : 0.009em;
+	-fx-alignement : CENTER-CENTER;
+	-fx-border-color : #599191ff
+}
+.box{
+	-fx-border-width : 0.009em;
+	-fx-alignement : CENTER-CENTER;
+	-fx-border-color : #599191ff
+}
+.btn-primary{
+	-fx-background-color :  #20639B;
+	-fx-border-radius : 5.0, 5.0, 5.0, 5.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill : #ffffff;
+}
+.btn-danger{
+	-fx-background-color : #FF0000;
+	-fx-border-radius : 5.0, 5.0, 5.0, 5.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill : #ffffff;
+}
